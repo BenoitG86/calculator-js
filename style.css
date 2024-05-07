@@ -5,6 +5,7 @@
 
 body {
       background-color: whitesmoke;
+      padding: 0;
 }
 
 .container {
@@ -45,37 +46,32 @@ body {
       cursor: crosshair;
 }
 
-
 .clear {
       background-color: #5ab08b;
-      /* GREEN */
-}
-
-.del {
-      background-color: #5e7bc7;
-      /* BLUE */
-}
-
-.equal {
-      background-color: #f16662;
-      /* RED */
-}
-
-.zero {
-      background-color: #fbc74f;
-      /* YELLOW */
 }
 
 .clear:hover { 
       background-color: #4b7e68
 }
 
+.del {
+      background-color: #5e7bc7;
+}
+
 .del:hover {
       background-color: #465b8f;
 }
 
+.equal {
+      background-color: #f16662;
+}
+
 .equal:hover {
       background-color: #aa4946;
+}
+
+.zero {
+      background-color: #fbc74f;
 }
 
 .zero:hover {
