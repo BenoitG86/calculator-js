@@ -1,0 +1,83 @@
+@font-face {
+      font-family: 'segments';
+      src: url('fonts/SevenSegment.ttf') format(TrueType);
+}
+
+body {
+      background-color: whitesmoke;
+}
+
+.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.calculator {
+      background-color: #828282;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.line {
+      display: flex;
+}
+
+.display {
+      background-color: lightcyan;
+      font-family: 'segments';
+      font-size: 30px;
+      font-weight: bold;
+      text-align: end;
+      padding: 5px;
+}
+
+.calculator form input {
+      flex-grow: 1;
+      border: 0;
+      outline: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 4px;
+      margin: 4px;
+      cursor: crosshair;
+}
+
+
+.clear {
+      background-color: #5ab08b;
+      /* GREEN */
+}
+
+.del {
+      background-color: #5e7bc7;
+      /* BLUE */
+}
+
+.equal {
+      background-color: #f16662;
+      /* RED */
+}
+
+.zero {
+      background-color: #fbc74f;
+      /* YELLOW */
+}
+
+.clear:hover { 
+      background-color: #4b7e68
+}
+
+.del:hover {
+      background-color: #465b8f;
+}
+
+.equal:hover {
+      background-color: #aa4946;
+}
+
+.zero:hover {
+      background-color: #c09a41;
+}
