@@ -1,25 +1,30 @@
 @font-face {
       font-family: 'segments';
-      src: url('fonts/SevenSegment.ttf') format(TrueType);
+      src: url('../fonts/SevenSegment.ttf') format(TrueType);
+}
+
+*, *::before, *::after {
+      box-sizing: border-box;
 }
 
 body {
       background-color: whitesmoke;
-      padding: 0;
+      margin: 0;
 }
 
 .container {
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
 }
 
 .calculator {
-      background-color: #828282;
+      width: 250px; 
+      background-color: #c7c7c7;
       border-radius: 10px;
       padding: 10px;
-      box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.5);
+      box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);      
 }
 
 .line {
@@ -35,6 +40,10 @@ body {
       padding: 5px;
 }
 
+/* _______ */
+/* Boutons */
+/* _______ */
+
 .calculator form input {
       flex-grow: 1;
       border: 0;
@@ -42,9 +51,13 @@ body {
       width: 50px;
       height: 50px;
       border-radius: 4px;
-      margin: 4px;
       cursor: crosshair;
+      margin: 4px;
 }
+
+/* _______________ */
+/* Boutons colorés */
+/* _______________ */
 
 .clear {
       background-color: #5ab08b;
